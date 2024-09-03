@@ -5,11 +5,11 @@ Image compression is a crucial technique in modern digital media, allowing us to
 ## Singular Value Decomposition (SVD)
 Singular Value Decomposition (SVD) is a mathematical technique that factors a matrix \( A \) into three distinct matrices:
 
-$A = U \Sigma V^T$
+$$A = U \Sigma V^T$$
 
-- **\( U \)**: An orthogonal matrix representing the left singular vectors.
-- **\( \Sigma \)**: A diagonal matrix containing the singular values, which represent the magnitude of each component.
-- **\( V^T \)**: An orthogonal matrix representing the right singular vectors.
+- ** $U$ **: An orthogonal matrix representing the left singular vectors.
+- **$\Sigma$**: A diagonal matrix containing the singular values, which represent the magnitude of each component.
+- **$V^T$**: An orthogonal matrix representing the right singular vectors.
 
 In the context of image compression, the matrix \( A \) represents the pixel intensity values of the image. By retaining only the largest singular values in \( \Sigma \), we can reconstruct an approximation of the original image with significantly reduced data, effectively compressing the image.
 
