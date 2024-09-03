@@ -1,4 +1,5 @@
-# Image-Compression-Using-Singular-Value-Decomposition-SVD-
+# Image-Compression-Using-Singular-Value-Decomposition-SVD
+
 
 Image compression is a crucial technique in modern digital media, allowing us to reduce the size of image files while retaining as much quality as possible. In this project, we explore the application of Singular Value Decomposition (SVD) to compress images efficiently. SVD is a powerful linear algebra tool that breaks down an image into its fundamental components, enabling us to approximate the original image with fewer data points.
 
